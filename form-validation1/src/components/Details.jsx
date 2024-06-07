@@ -14,7 +14,7 @@ const Details = () => {
     <>
       <div className={styles.detailsbody}>
         <div className={styles.details}>
-          <h1 className={styles.detailsheading}>Login Form</h1>
+          <h2 className={styles.detailsheading}>Submitted Details</h2>
           <p>First Name: {formData.firstName}</p>
           <p>Last Name: {formData.lastName}</p>
           <p>Username: {formData.username}</p>
